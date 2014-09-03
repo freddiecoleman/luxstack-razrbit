@@ -1,12 +1,13 @@
 <img src="http://cdn.luxstack.com/assets/razrbit-github-banner-dark-beta.png" style="width:100%"/>
 
 Official SDKs: 
+[Android](https://github.com/LUXSTACK/razrbit-sdk-android) | 
 [iOS](https://github.com/LUXSTACK/razrbit-sdk-ios) | 
 [Javascript](https://github.com/LUXSTACK/razrbit-sdk-javascript) | 
 PHP | 
 [Ruby](https://github.com/LUXSTACK/razrbit-sdk-ruby)
 
-**[Razrbit](https://www.razrbit.com) is a powerful API that helps developers quickly build and manage Bitcoin applications without creating and maintaining complicated block chain infrastructure.**
+**[Razrbit](https://razrbit.com) is a powerful API that helps developers quickly build and manage Bitcoin applications without creating and maintaining complicated block chain infrastructure.**
 
 # Razrbit SDK for PHP (Beta)
 
