@@ -7,7 +7,7 @@ Official SDKs:
 PHP | 
 [Ruby](https://github.com/LUXSTACK/razrbit-sdk-ruby)
 
-**[Razrbit](https://razrbit.com) Bitcoin Platform and SDKs — build, test and scale bitcoin apps faster with Razrbit. Plug in our powerful SDKs to supercharge your bitcoin toolbox.**
+**[Razrbit](https://luxstack.com) Bitcoin Platform and SDKs — build, test and scale bitcoin apps faster with Razrbit. Plug in our powerful SDKs to supercharge your bitcoin toolbox.**
 
 # Razrbit SDK for PHP (Beta)
 
