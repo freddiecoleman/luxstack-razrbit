@@ -1,6 +1,6 @@
 <?php
 
-use Razrbit\Razrbit;
+use Luxstack\Razrbit\Razrbit;
 
 require_once '../vendor/autoload.php';
 

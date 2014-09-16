@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Razrbit\\": "src/"
+            "Luxstack\\Razrbit": "src/"
         }
     }
 }
