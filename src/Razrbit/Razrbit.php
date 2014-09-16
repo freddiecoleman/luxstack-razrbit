@@ -1,4 +1,4 @@
-<?php
+<?php namespace Razrbit;
 /**
  * Copyright 2014 LUXSTACK, Inc.
  *
