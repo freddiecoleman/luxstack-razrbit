@@ -9,8 +9,8 @@ CONST MY_APP_SECRET = "688e2b77-09a3-4945-9468-bf188ff3de88";
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-class RazrbitSpec extends ObjectBehavior
-{
+class RazrbitSpec extends ObjectBehavior {
+
     function let()
     {
         $this->beConstructedWith(MY_APP_ID, MY_APP_SECRET);
@@ -25,5 +25,11 @@ class RazrbitSpec extends ObjectBehavior
     {
         $this->walletCreateNewAddress()
             ->shouldMatch('/[A-z0-9]{26,34}/');
+    }
+
+    function it_sends_bitcoin()
+    {
+        $this->walletSendAmount("5exampleFromAddressPrivateKey", "1exampleToAddress", 123456)
+            ->shouldReturn(true);
     }
 }
