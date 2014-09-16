@@ -32,4 +32,11 @@ class RazrbitSpec extends ObjectBehavior {
         $this->walletSendAmount("5exampleFromAddressPrivateKey", "1exampleToAddress", 123456)
             ->shouldReturn(true);
     }
+
+    function it_gets_the_balance_from_an_address()
+    {
+        $this->walletGetBalanceFromAddress("12sENwECeRSmTeDwyLNqwh47JistZqFmW8")
+            ->shouldBeDouble();
+    }
+
 }
