@@ -1,0 +1,26 @@
+{
+    "name": "luxstack/razrbit",
+    "description": "Build, test and scale bitcoin apps faster with Razrbit",
+    "keywords": [
+        "php",
+        "bitcoin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freddie Coleman",
+            "email": "f.coleman@hotmail.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Razrbit\\": "src/"
+        }
+    }
+}
