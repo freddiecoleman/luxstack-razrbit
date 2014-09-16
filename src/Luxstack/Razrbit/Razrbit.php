@@ -85,7 +85,6 @@ class Razrbit
     $this->baseCurlParams = array("appId"=>$this->appId,"appSecret"=>$this->appSecret);
   }
 
-
   /**
    * Makes an HTTP request.
    *
@@ -93,6 +92,7 @@ class Razrbit
    * @param Array $params to be sent with the request
    * @param CurlHandler $ch (optional) initialized curl handle
    * @return String The response text
+   * @throws Exception
    */
   protected function makeRequest($url, $params, $ch=null) {
     if (!$ch) {
@@ -156,7 +156,7 @@ class Razrbit
   /**
    * Sends bitcoin from one of your addresses to the destination addresses. 
    * 
-   * @param String $fromAddress must be one of your Razrbit addresses
+   * @param String $fromAddressPrivateKey must be one of your Razrbit addresses
    * @param String $toAddress
    * @param Integer $amount
    * @return Boolean success
