@@ -51,4 +51,10 @@ class RazrbitSpec extends ObjectBehavior {
             ->shouldBeArray();
     }
 
+    function it_retrieves_details_about_a_given_address()
+    {
+        $this->explorerAddress("12sENwECeRSmTeDwyLNqwh47JistZqFmW8")
+            ->shouldBeArray();
+    }
+
 }
