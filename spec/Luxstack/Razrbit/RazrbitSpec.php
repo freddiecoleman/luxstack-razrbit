@@ -80,4 +80,9 @@ class RazrbitSpec extends ObjectBehavior {
         $this->marketsPrice("USD")->shouldBeDouble();
     }
 
+    function it_returns_the_day_price()
+    {
+        $this->marketsDayPrice("USD")->shouldBeDouble();
+    }
+
 }
