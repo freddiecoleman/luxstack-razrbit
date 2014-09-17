@@ -75,4 +75,9 @@ class RazrbitSpec extends ObjectBehavior {
             ->shouldReturn(true);
     }
 
+    function it_returns_the_current_market_price()
+    {
+        $this->marketsPrice("USD")->shouldBeDouble();
+    }
+
 }
