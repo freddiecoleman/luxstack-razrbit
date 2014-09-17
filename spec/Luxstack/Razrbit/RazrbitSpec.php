@@ -69,4 +69,10 @@ class RazrbitSpec extends ObjectBehavior {
             ->shouldBeDouble();
     }
 
+    function it_pushes_a_transaction_to_the_network()
+    {
+        $this->networkPushTransaction("exampleTransaction")
+            ->shouldReturn(true);
+    }
+
 }
