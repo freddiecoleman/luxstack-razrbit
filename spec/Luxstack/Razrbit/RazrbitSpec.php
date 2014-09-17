@@ -85,9 +85,16 @@ class RazrbitSpec extends ObjectBehavior {
         $this->marketsDayPrice("USD")->shouldBeDouble();
     }
 
-    function it_returns_a_historical_price()
+    function it_returns_a_historical_market_price()
     {
         $this->marketsHistoricalPrice("USD","2011-07-03")
             ->shouldBeLike(15.48);
     }
+
+    function it_should_set_up_a_notification_email_for_a_given_address()
+    {
+        $this->notificationsAddress("12sENwECeRSmTeDwyLNqwh47JistZqFmW8", "example@example.com")
+            ->shouldReturn(true);
+    }
+
 }
