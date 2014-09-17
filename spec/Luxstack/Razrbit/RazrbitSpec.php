@@ -57,4 +57,10 @@ class RazrbitSpec extends ObjectBehavior {
             ->shouldBeArray();
     }
 
+    function it_returns_unspent_outputs_for_an_address()
+    {
+        $this->explorerAddressUnspentOutputs("12sENwECeRSmTeDwyLNqwh47JistZqFmW8")
+            ->shouldBeArray();
+    }
+
 }
