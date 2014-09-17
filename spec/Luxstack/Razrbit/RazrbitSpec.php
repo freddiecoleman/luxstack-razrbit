@@ -97,4 +97,10 @@ class RazrbitSpec extends ObjectBehavior {
             ->shouldReturn(true);
     }
 
+    function it_should_set_up_a_notification_email_for_a_given_block()
+    {
+        $this->notificationsBlock("000000000000000021c40d35f9c317d2e8c9ead4dec3e24b8d1919862bd8f89d", "example@example.com")
+            ->shouldReturn(true);
+    }
+
 }
