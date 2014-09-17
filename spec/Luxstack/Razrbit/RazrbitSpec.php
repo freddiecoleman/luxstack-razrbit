@@ -45,4 +45,10 @@ class RazrbitSpec extends ObjectBehavior {
             ->shouldBeArray();
     }
 
+    function it_retrieves_details_about_a_given_transaction()
+    {
+        $this->explorerTransaction("39f35e6a1c69e13342e6cad3471ec247d0c4b45594aa59715c1d109c62363208")
+            ->shouldBeArray();
+    }
+
 }
