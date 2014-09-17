@@ -63,4 +63,10 @@ class RazrbitSpec extends ObjectBehavior {
             ->shouldBeArray();
     }
 
+    function it_returns_the_current_network_difficulty()
+    {
+        $this->networkGetDifficulty()
+            ->shouldBeDouble();
+    }
+
 }
