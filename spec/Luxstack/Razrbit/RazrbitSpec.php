@@ -39,4 +39,10 @@ class RazrbitSpec extends ObjectBehavior {
             ->shouldBeDouble();
     }
 
+    function it_retrieves_details_about_a_given_block()
+    {
+        $this->explorerBlock("000000000000000021c40d35f9c317d2e8c9ead4dec3e24b8d1919862bd8f89d")
+            ->shouldBeArray();
+    }
+
 }
