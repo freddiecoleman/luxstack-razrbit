@@ -2,6 +2,8 @@
 
 This package contains the Luxstack Razrbit Bitcoin platform, allowing you to build, test and scale bitcoin apps faster.
 
+I did not create this - it is built by Luxstack. I have simply written some automated tests for it and am distributing it as a composer package.
+
 ## Installation
 
 Begin by installing this package through Composer.
@@ -119,10 +121,6 @@ Set up a notification email for a given block
 $razrbit->notificationTransaction($transactionHash,"example@example.com");
 ```
 Set up a notification email for a given transaction
-
-# Notice
-
-I did not create the Razrbit Bitcoin API - it is built by Luxstack. I have simply written some automated tests for it and am distributing it as a composer package.
 
 # License
 
