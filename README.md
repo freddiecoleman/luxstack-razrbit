@@ -124,7 +124,7 @@ Set up a notification email for a given transaction
 
 # License
 
-**Code released under [the MIT license](https://github.com/LUXSTACK/razrbit-sdk-php/blob/master/LICENSE).**
+**Razrbit code released under [the MIT license](https://github.com/LUXSTACK/razrbit-sdk-php/blob/master/LICENSE).**
 
 Copyright 2012-2014 LUXSTACK Inc. Razrbit is a trademark maintained by LUXSTACK Inc.
 
