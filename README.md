@@ -1,8 +1,8 @@
 # Luxstack Razrbit SDK for PHP (Beta)
 
-This package contains the Luxstack Razrbit Bitcoin platform, allowing you to build, test and scale bitcoin apps faster.
+This package contains the Luxstack Razrbit Bitcoin platform - allowing you to build, test and scale bitcoin apps faster.
 
-I did not create this - it is built by Luxstack. I have simply written some automated tests for it and am distributing it as a composer package.
+I did not create this, it is built by Luxstack. I have simply written some automated tests for it and am distributing it as a composer package.
 
 ## Installation
 
