@@ -1,32 +1,20 @@
-<img src="http://cdn.luxstack.com/assets/razrbit-github-banner-dark-beta.png" style="width:100%"/>
+# Luxstack Razrbit SDK for PHP (Beta)
 
-Official SDKs: 
-[Android](https://github.com/LUXSTACK/razrbit-sdk-android) | 
-[iOS](https://github.com/LUXSTACK/razrbit-sdk-ios) | 
-[Javascript](https://github.com/LUXSTACK/razrbit-sdk-javascript) | 
-PHP | 
-[Ruby](https://github.com/LUXSTACK/razrbit-sdk-ruby)
-
-**[Razrbit](https://luxstack.com) Bitcoin Platform and SDKs — build, test and scale bitcoin apps faster with Razrbit. Plug in our powerful SDKs to supercharge your bitcoin toolbox.**
-
-# Razrbit SDK for PHP (Beta)
+This package contains the Luxstack Razrbit Bitcoin platform, allowing you to build, test and scale bitcoin apps faster.
 
 ## Installation
 
-In the library section of your project, clone the API:
+Begin by installing this package through Composer.
 
-```
-git clone https://github.com/LUXSTACK/razrbit-sdk-php.git
+```js
+{
+    "require": {
+		"laracasts/utilities": "~1.0"
+	}
+}
 ```
 
 ## Usage - REST API Calls
-
-
-Be sure to import the razrbit.php file where needed:
-
-```
-require_once 'razrbit-sdk-php/src/razrbit.php';
-```
 
 Prior to making any REST API calls, invoke the init method passing in your AppId and AppSecret which will be used for all subsequent invocations:
 
@@ -132,11 +120,9 @@ $razrbit->notificationTransaction($transactionHash,"example@example.com");
 ```
 Set up a notification email for a given transaction
 
-# Support
+# Notice
 
-Feel free to request a feature and make suggestions for our [product team](mailto:team@luxstack.com).
-
-* [GitHub Issues](https://github.com/luxstack/razrbit-sdk-php/issues)
+I did not create the Razrbit Bitcoin API - it is built by Luxstack. I have simply written some automated tests for it and am distributing it as a composer package.
 
 # License
 
