@@ -79,7 +79,7 @@ class Razrbit
    * @param String $appId the application ID
    * @param String $appSecret the application secret
    */
-  public function __construct($appId,$appSecret) {
+  public function __construct($appId = MY_APP_ID, $appSecret = MY_APP_SECRET) {
     $this->appId = $appId;
     $this->appSecret = $appSecret;
     $this->baseCurlParams = array("appId"=>$this->appId,"appSecret"=>$this->appSecret);
