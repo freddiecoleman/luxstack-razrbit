@@ -11,7 +11,7 @@ Begin by installing this package through Composer.
 ```js
 {
     "require": {
-		"freddiecoleman/luxstack-razrbit": "~1.0"
+		"freddiecoleman/luxstack-razrbit": "1.1.0"
 	}
 }
 ```
