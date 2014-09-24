@@ -16,9 +16,42 @@ Begin by installing this package through Composer.
 }
 ```
 
-## Usage - REST API Calls
+## API Key
 
-Prior to making any REST API calls, invoke the init method passing in your AppId and AppSecret which will be used for all subsequent invocations:
+In order to use this package you will need to set the following constants containing your Luxstack App ID and secret.
+
+```php
+
+CONST MY_APP_ID     = "A25AOpLUoT";
+CONST MY_APP_SECRET = "688e2b77-09a3-4945-9468-bf188ff3de88";
+```
+
+### Laravel Users
+
+If you are a Laravel user there is a service provider that you can make use of.
+
+```php
+
+// app/config/app.php
+
+'providers' => [
+    '...',
+    'Luxstack\Razrbit\RazrbitServiceProvider'
+];
+```
+
+When this provider is booted, you'll have access to a helpful `Razrbit` facade, which you may use in your controllers.
+
+```php
+Route::get('/', function()
+{
+	return Razrbit::marketsPrice('USD');
+});
+```
+
+## Non-Laravel users
+
+If you are not using Laravel you will need to instantiate Razrbit manually yourself.
 
 ```
 $razrbit = new Razrbit(MY_APP_ID,MY_APP_SECRET);
