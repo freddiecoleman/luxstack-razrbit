@@ -169,6 +169,6 @@ Copyright 2012-2014 LUXSTACK Inc. Razrbit is a trademark maintained by LUXSTACK 
 * PHP
 * [Ruby](https://github.com/LUXSTACK/razrbit-sdk-ruby)
 
-# Package author
+### Package author
 
 This package was made by [Freddie Coleman](http://www.freddiecoleman.com)
