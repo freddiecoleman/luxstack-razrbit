@@ -26,7 +26,7 @@ CONST MY_APP_ID     = "A25AOpLUoT";
 CONST MY_APP_SECRET = "688e2b77-09a3-4945-9468-bf188ff3de88";
 ```
 
-### Laravel Users
+## Laravel Users
 
 If you are a Laravel user there is a service provider that you can make use of.
 
