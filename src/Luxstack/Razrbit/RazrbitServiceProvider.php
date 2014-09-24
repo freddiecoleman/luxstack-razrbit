@@ -1,4 +1,4 @@
-<?php
+<?php namespace Luxstack\Razrbit;
 use Illuminate\Support\ServiceProvider;
 use Luxstack\Razrbit\Razrbit;
 
